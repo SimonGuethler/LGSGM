@@ -18,7 +18,7 @@ device = torch.device('cuda:0')
 import torchvision.transforms as transforms
 from efficientnet_pytorch import EfficientNet
 
-IMAGE_DIR = 'path/to/flickr30k_images' # list of images
+IMAGE_DIR = './DataSets/flickr30k-images' #'path/to/flickr30k_images' # list of images
 DATA_DIR = './Data'
 
 list_image_size = [224, 240, 260, 300, 380, 456, 528, 600] # wrt efficientnet b0 to b7

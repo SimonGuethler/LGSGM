@@ -15,7 +15,7 @@ import json
 from functools import partial
 from PIL import Image
 
-IMAGE_DIR = 'path/to/flickr30k_images'
+IMAGE_DIR = './DataSets/flickr30k-images' #'path/to/flickr30k_images'
 OBJ_FT_DIR = './VisualObjectFeatures' # run extract_visual_features.py to get this
 PRED_FT_DIR = './VisualPredFeatures' # run extract_visual_features.py to get this
 

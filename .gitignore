@@ -3,3 +3,7 @@ Debug.ipynb
 *.pyc
 Data/flickr30k_train*
 .ipynb_checkpoints/
+
+DataSets
+Graphs
+Visual*_b5
